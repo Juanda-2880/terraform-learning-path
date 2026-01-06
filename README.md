@@ -1,5 +1,8 @@
 # Terraform Learning Path
 
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 Welcome to my Infrastructure as Code (IaC) learning journey!
 This repository documents my progress, labs, and practical exercises as I master **Terraform** and **AWS**.
 
@@ -35,5 +38,3 @@ To run these labs locally, you will need:
 **Juan David Pacheco Vargas**
 *Telematics Engineering Student & Cloud Enthusiast*
 
----
-*This project is part of my preparation for the **HashiCorp Certified: Terraform Associate** exam.*
