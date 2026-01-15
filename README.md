@@ -103,7 +103,6 @@ This repository is intended for:
 * Reinforcing Terraform concepts through practice
 * Serving as a personal reference for future projects
 * Demonstrating knowledge of Terraform and IaC principles
-* Providing clean and well-structured examples for learning
 
 ---
 
@@ -118,6 +117,4 @@ This repository is intended for:
 ##  Author
 **Juan David Pacheco Vargas**
 *Telematics Engineering Student & Cloud Enthusiast*
-
-Feel free to explore, reuse, and adapt the configurations for learning purposes.
 
