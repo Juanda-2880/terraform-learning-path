@@ -7,3 +7,7 @@ resource "aws_s3_bucket" "my_bucket" {
     }
   
 }
+
+# Check the  State File and the command terraform show
+#terraform plan -refresh-only
+#terraform apply -refresh-only
