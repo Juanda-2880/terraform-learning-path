@@ -3,36 +3,128 @@
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-Welcome to my Infrastructure as Code (IaC) learning journey!
-This repository documents my progress, labs, and practical exercises as I master **Terraform** and **AWS**.
+
+
+This repository contains my learning journey and hands-on practice while completing a comprehensive **Terraform Learning Path** focused on **Infrastructure as Code (IaC)**. All the content here is based on structured lessons and practical exercises from a Terraform course, organized to reflect a progressive understanding from fundamentals to more advanced concepts.
+
+The goal of this repository is to serve as a **reference, practice ground, and knowledge base** for Terraform concepts, syntax, and best practices.
 
 ---
 
-## About The Project
-This repository hosts a collection of hands-on labs, ranging from basic resource provisioning to more complex, modular architectures on AWS. These exercises are part of my ongoing coursework and professional development in Cloud Engineering.
+##  What You Will Find in This Repository
 
-**Key Objectives:**
-- Master HCL (HashiCorp Configuration Language) syntax.
-- Manage the infrastructure lifecycle (`init`, `plan`, `apply`, `destroy`).
-- Implement state management and security best practices.
-- Build reusable and scalable modules.
+* Incremental examples following Terraform best practices
+* Clear separation of concepts (providers, variables, functions, modules, etc.)
+* Practical infrastructure definitions written in HCL
+* Reusable and maintainable Terraform configurations
+* Learning-oriented structure aligned with a real-world Terraform workflow
 
-## Tech Stack
-* **Terraform:** v1.x
-* **Cloud Provider:** AWS (Amazon Web Services)
-* **Scripting:** Bash (User Data)
-* **Version Control:** Git & GitHub
+---
 
-##  Prerequisites
-To run these labs locally, you will need:
+##  Covered Topics
 
-1.  An active **AWS Account** (Free Tier recommended).
-2.  **Terraform CLI** installed.
-3.  **AWS CLI** installed and configured with your credentials.
+### 1. Course Introduction
 
-##  Security Notes
-* A `.gitignore` file is configured to exclude sensitive files such as `terraform.tfstate`, `*.tfvars`, and `.terraform` directories.
-* **No Access Keys or Secret Keys** are stored in this repository. I use environment variables or IAM roles for authentication.
+* Overview of Infrastructure as Code (IaC)
+* Why Terraform is used in modern cloud and DevOps environments
+* Core benefits: automation, consistency, and scalability
+
+### 2. Introduction to Infrastructure as Code (IaC) and Terraform
+
+* What IaC is and how it compares to manual infrastructure management
+* Terraform architecture and workflow
+* Terraform CLI basics
+* Providers and how Terraform interacts with cloud platforms
+
+### 3. Terraform Fundamentals
+
+* Terraform configuration files (`.tf`)
+* Resources and their lifecycle
+* Providers configuration
+* Terraform initialization (`terraform init`)
+* Planning and applying changes (`terraform plan`, `terraform apply`)
+* Terraform state and its importance
+* Understanding dependencies between resources
+
+### 4. Working with Terraform
+
+* Managing state files locally and remotely
+* Best practices for organizing Terraform code
+* Resource targeting and lifecycle rules
+* Handling updates and infrastructure changes safely
+* Formatting and validating Terraform code
+
+### 5. Terraform Provisioners
+
+* What provisioners are and when to use them
+* `local-exec` and `remote-exec`
+* Common use cases and limitations
+* Why provisioners should be used cautiously
+
+### 6. Terraform Variables
+
+* Input variables and variable definitions
+* Variable types (string, number, bool, list, map, object)
+* Default values and validation rules
+* Output values
+* Using variables to make configurations reusable and flexible
+
+### 7. Terraform Functions
+
+* Built-in Terraform functions
+* String, numeric, and collection functions
+* Conditional expressions
+* Practical examples to manipulate data dynamically
+
+### 8. Terraform Modules and Workspaces
+
+* What modules are and why they matter
+* Creating reusable modules
+* Module inputs and outputs
+* Organizing Terraform projects with modules
+* Terraform workspaces
+* Managing multiple environments (e.g., dev, staging, prod)
+
+---
+
+##  Tools & Technologies
+
+* **Terraform**
+* **HCL (HashiCorp Configuration Language)**
+* AWS
+* Command-line tools
+
+---
+
+## Purpose of This Repository
+
+This repository is intended for:
+
+* Reinforcing Terraform concepts through practice
+* Serving as a personal reference for future projects
+* Demonstrating knowledge of Terraform and IaC principles
+
+---
+
+## Notes
+
+* The code in this repository is focused on learning and experimentation.
+* Best practices are followed whenever possible to reflect real-world usage.
+* Advanced projects and final implementations are maintained in separate repositories.
+
+---
+
+### Course Reference
+
+All the content and exercises in this repository are the result of my studies from the Udemy course:
+
+Ultimate Terraform on AWS Bootcamp | Beginner to Advanced
+
+This repository reflects the concepts, practices, and progression taught throughout the course, adapted into my own hands-on implementations and organized for long-term reference.
+
+https://www.udemy.com/share/10bVnZ3@cSg8guDsXT1Ae_OuLl19JqWEI48V19EivD_HohUItAOKdIHGhHkm6xB2M0GXl9FYOQ==/
+
+---
 
 ##  Author
 **Juan David Pacheco Vargas**
