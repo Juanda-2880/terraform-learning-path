@@ -114,6 +114,18 @@ This repository is intended for:
 
 ---
 
+### Course Reference
+
+All the content and exercises in this repository are the result of my studies from the Udemy course:
+
+Ultimate Terraform on AWS Bootcamp | Beginner to Advanced
+
+This repository reflects the concepts, practices, and progression taught throughout the course, adapted into my own hands-on implementations and organized for long-term reference.
+
+https://www.udemy.com/share/10bVnZ3@cSg8guDsXT1Ae_OuLl19JqWEI48V19EivD_HohUItAOKdIHGhHkm6xB2M0GXl9FYOQ==/
+
+---
+
 ##  Author
 **Juan David Pacheco Vargas**
 *Telematics Engineering Student & Cloud Enthusiast*
